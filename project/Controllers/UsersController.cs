@@ -56,9 +56,9 @@ namespace project.Controllers
 
         [HttpPost]
         [Route("passStrength")]
-        public int checkPassStrength([FromBody]LoginUser pass)
+        public int CheckPassStrength([FromBody]string pass)
         {
-            return _usersService.CheckPasswordStregth(pass.Password);
+            return _usersService.CheckPasswordStregth(pass);
         }
 
         [HttpPut]
@@ -69,6 +69,5 @@ namespace project.Controllers
             User u = await _usersService.updateUser(id,user);
             return Ok(u);
         }
-
     }
 }

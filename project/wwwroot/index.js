@@ -66,7 +66,8 @@ const update = async () => {
 
 const checkStrength = async () => {
     const obj = {
-        Pass: document.getElementById("password2").value,
+        email:'example@gmail.com',
+        password: document.getElementById("password2").value
     }
     const res = await fetch("api/users/passStrength", {
         method: "POST",
