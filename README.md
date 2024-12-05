@@ -78,9 +78,9 @@ Traffic is monitored and logged in a dedicated table for analytical purposes wit
 
 ### Testing
 
-* We performed integration tests in the repository layer against a temporary database created specifically for testing and deleted at the end of the test.
-* We performed unit tests in the service layer using a mocking framework like Moq to isolate and test functions with complex logic.
+* I performed integration tests in the repository layer against a temporary database created specifically for testing and deleted at the end of the test.
+* I performed unit tests in the service layer using a mocking framework like Moq to isolate and test functions with complex logic.
 
 ### Example Client
 
-We developed a small client using HTML and JavaScript to demonstrate an online store that uses this API.
+I developed a small client using HTML and JavaScript to demonstrate an online store that uses this API.
